@@ -1,5 +1,6 @@
 import React from 'react';
 import Departments from './components/Departments'
+import Database from './data/database.json'
 import './App.css';
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
       </header>
       <nav>Menu Options</nav>
       <main>
-        <section id="departments">
-          <Departments />
+        <section id="departmentsMenu">
+          <Departments departments={Database.departments}/>
         </section>
         <section id="departmentContents">
           Department Contents

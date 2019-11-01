@@ -20,3 +20,27 @@
 .App-link {
   color: #09d3ac;
 }
+
+#departmentsMenu ul{
+  list-style: none;
+  float:left;
+  width: 100%;
+}
+
+#departmentsMenu li{
+  float:left;
+  width:10%;
+  margin: 0 10px 0 10px;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#departmentsMenu li:hover{
+  color: blue;
+  background-color: lightblue;
+}
+
+

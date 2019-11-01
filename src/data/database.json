@@ -1,0 +1,60 @@
+{
+    
+    "languages":{
+        "en":{},
+        "pt":{}
+    },
+    "departments":[
+        {
+            "title":{
+                "en":"Groceries"
+            },
+            "products":{
+
+            }
+            
+        },
+        {
+            "title":{
+                "en":"Meats"
+            },
+            "products":{
+                
+            }
+        },
+        {
+            "title":{
+                "en":"Toys"
+            },
+            "products":{
+                
+            }
+        },
+        {
+            "title":{
+                "en":"Cleaning"
+            },
+            "products":{
+                
+            }
+        },
+        {
+            "title":{
+                "en":"Produce"
+            },
+            "products":{
+                
+            }
+        },
+        {
+            "title":{
+                "en":"Tools"
+            },
+            "products":{
+                
+            }
+        }
+    ]
+    
+
+}
