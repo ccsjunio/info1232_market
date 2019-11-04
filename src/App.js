@@ -1,20 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 import Departments from './components/Departments'
 import Database from './data/database.json'
+import Menu from './components/Menu'
 import './App.css';
 
+
+
 function App() {
+  const [departments, setDepartments] = useState(Database.departments);
   return (
     <div className="App">
       <header>
         <img src="" alt="logo" />
         Market for Small Businesses
       </header>
-      <nav>Menu Options</nav>
+      <nav><Menu departments={departments}/></nav>
       <main>
-        <section id="departmentsMenu">
-          <Departments departments={Database.departments}/>
-        </section>
         <section id="departmentContents">
           Department Contents
         </section>
